@@ -1,0 +1,109 @@
+In order to perform clinical analysis and medical intervention, as well as to visually portray the operation
+of certain organs or tissues, medical imaging is the method and technology of producing images of the
+inside of the body. Medical imaging aims to identify and cure illnesses by revealing interior structures
+that are covered by the skin and bones. In order to detect anomalies, medical imaging also creates a
+database of typical anatomy and physiology.
+The use of computers to handle pictures is referred to as medical imaging processing. Numerous
+methods and procedures, including picture acquisition, storage, display, and communication, are part of
+this processing. The detection and management of disorders are pursued by this procedure. In order to
+make it simple to identify abnormalities, this procedure generates a data bank of the organs' typical
+structure and function. This procedure combines radiological and organic imaging using thermal and
+
+isotope imaging, sonography, magnetic resonance imaging, and electromagnetic energy (gamma and X-
+rays). Numerous additional technologies are employed to capture data regarding the position and
+
+operation of the body. Compared to modulates that generate pictures, such approaches have a lot more
+limits.
+Using a computer to alter a digital image is known as an image processing technique. This method
+offers several advantages, including data storage, connectivity, flexibility, and adaptation. The
+development of various picture scaling methods has made it possible to maintain photos effectively.
+This method requires several sets of rules to be applied simultaneously in the pictures. Multiple
+dimensions can be handled for both 2D and 3D pictures.
+
+1.1 BRAIN ANATOMY
+One of the most prevalent and, consequently, deadly brain disorders that has destroyed many
+lives worldwide is the brain tumour. Cancer is a disease of the brain in which cancer cells grow
+within the tissues of the brain. A recent study on cancer claims that over a lakh people
+worldwide receive a brain tumour diagnosis each year.
+Figures for brain tumour patients indicate unsatisfactory outcomes despite consistent attempts
+to address the difficulties associated with the tumours. In response to this, researchers are
+focusing on computer vision to get a deeper comprehension of the first phases of tumour
+development and how to combat them with cutting-edge therapeutic approaches.
+Computed tomography (CT) scans and magnetic resonance imaging (MR) are the two most
+used methods to identify whether a tumour is present and where it is located in order to make
+treatment options. Because of its portability and increased capacity to provide high-definition
+pictures of diseased tissues, these two scans are still widely employed. Currently, a number of
+other treatments are available for tumours, including radiation therapy, chemotherapy, and
+surgery. The size, nature, and grade of the tumor shown in the MR picture are only a few of the
+numerous parameters that influence the therapy choice. Whether or whether cancer has spread
+to other parts of the body is also its responsibility.
+
+
+
+Accurate identification of the specific type of brain disorder is crucial for treatment planning
+in order to reduce misdiagnoses. The accuracy is frequently haphazard while using
+computeraided diagnostic (CAD) tools. The primary goal of computer vision is to reduce the
+amount of time it takes for doctors to interpret images and to generate a dependable result in
+the form of an associate estimate. These developments improve the consistency and accuracy
+of medical diagnosis; still, segmenting an MR picture of a tumour and its surrounding tissue is
+a highly challenging task. Another challenge that makes computerised brain tumour
+identification and segmentation challenging is the appearance of tumours in certain places
+within the brain image without differentiating picture intensities.
+
+1.2 MOTIVATION FOR THE WORK
+Cells growing abnormally inside the brain or central spinal canal is known as a brain tumour.
+Certain tumours may be malignant, thus prompt detection and treatment are necessary. People
+may be afflicted with brain tumours without realising the risk since the specific source and set
+of symptoms are unknown. Malignant (containing cancer cells) and benign (without containing
+cancer cells) are the two types of primary brain tumours.
+Cells that were developing and dividing improperly gave rise to brain tumours. According to
+diagnostic medical imaging methods, it seems to be a solid mass. Primary brain tumours and
+metastatic brain tumours are the two forms of brain tumours. A primary brain tumour is one
+that originates in the brain and tends to remain there, whereas a metastatic brain tumour is one
+that spreads across the brain after originating in another part of the body.
+The location, size, and kind of a brain tumour determine its symptoms. It happens when the
+tumour exerts pressure on the surrounding cells while compressing them. Furthermore, it also
+happens when a tumour obstructs the fluid that circulates throughout the brain. Headache,
+nausea, vomiting, and difficulty balance and walking are frequent symptoms. Diagnostic
+imaging techniques like CT and MRI can identify brain tumours. Depending on the type of site
+and the requirement for an inspection, both methods offer benefits in terms of detection. We
+have opted to utilise MRI scans in this study due to their ease of examination and ability to
+provide precise calcification and foreign mass placement.
+The method most frequently used to image brain tumours and determine their proximity is
+magnetic resonance imaging (MRI). Aside from several alternative techniques, the traditional
+approach for classifying CT and MR images and identifying tumour cells is still mostly
+supported for human evaluation. The primary reason MR images are employed is that they are
+non-destructive and non-ionizing. High-definition images provided by MR imaging are widely
+used to identify brain tumours. MRI scans can be T1-weighted, T2weighted, or flair-weighted.
+Numerous methods exist for processing photos, including feature extraction, pre-processing,
+image segmentation, image enhancements, and classifiers.
+
+
+
+1.3 PROBLEM STATEMENT
+Our research focuses on the automatic identification and categorization of brain tumours. MRI
+or CT scans are often used to analyse the anatomy of the brain. Tumour detection in brain
+magnetic resonance imaging is the paper's goal. The primary purpose of brain tumour detection
+is to support clinical diagnosis. The goal is to create an algorithm that, by integrating many
+processes, ensures the existence of a tumour, offering a reliable technique for tumour
+identification in MR brain pictures. Filtering, erosion, dilation, threshold, and tumour outlining
+techniques such edge detection are the techniques used.
+This study focuses on the extraction of tumours from MR brain images and their simplified
+depiction so that everyone can comprehend it. The aim of this work is to present certain
+important information to users in an easier-to-understand style, particularly for the medical
+personnel who are attending to the patient. Developing an algorithm to extract the tumour picture
+from the MR brain imaging is the goal of this effort. The final picture will be able to offer details
+on the tumor's location, size, and dimensions. Its border will also provide us information about
+the tumour that will be helpful in a variety of situations, giving the staff a stronger foundation
+on which to determine the best course of action for curing the tumour. Finally, we detect whether
+the given MR brain image has tumor or not using Convolution Neural Network.
+
+1.4 SCOPE
+Our goal is to create an automated system that can improve, classify, and segment brain tumours.
+Healthcare professionals, including neurosurgeons, can use the system. It is anticipated that the
+system, which combines computer vision, pattern analysis, and image processing techniques,
+would increase brain tumour screening's effectiveness, efficiency, and sensitivity. Medical
+imaging projects' main objective is to minimise mistake while extracting relevant and reliable
+information from these pictures. The creation of supplemental tools that can aid in early
+diagnosis or tumour identification and location monitoring is made possible by the appropriate
+combination and parameterization of the stages.
