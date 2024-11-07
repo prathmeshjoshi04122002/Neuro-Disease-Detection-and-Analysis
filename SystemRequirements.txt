@@ -1,0 +1,25 @@
+6.1 Hardware Requirements -
+• Hard Disk : 500GB and Above
+• RAM : 4GB and Above
+• Processor : I3 and Above
+
+6.2 Software Requirements –
+• Operating System : Windows 7, 8, 10 (64 bit)
+• Software : Python
+• Tools : Anaconda (Jupyter Note Book IDE)
+
+6.3 Software Description –
+PYTHON
+Python is an open-source, free computer language. Consequently, all it takes to begin using Python is a
+single installation. Not to mention, you may provide the community your own code. Another language
+that works across platforms is Python. What does this mean, then? Python may be installed and used on
+a variety of operating systems.
+An excellent tool for visualization is Python. It offers amazing visuals using libraries like seaborn, bokeh,
+and Matplotlib.
+PANDAS
+Pandas is a well-liked Python data science library, and for good reason—among many other things, it
+provides strong, expressive, and adaptable data structures that facilitate data manipulation and analysis.
+One such structure is the Data Frame. Wes McKinney created the sophisticated data manipulation
+program known as Pandas. The Data Frame is its primary data structure, and it is based on the Num py
+package. Using rows of observations and columns of variables, data frames let you store and work with
+tabular data..
