@@ -1,0 +1,15 @@
+The human brain serves as the main controller of the humanoid system. Brain cancer arises when
+brain tumours continue to grow, and brain tumours are caused by abnormal brain cell growth and
+division. In the subject of human health, computer vision is crucial since it reduces the need for
+human judgement to provide accurate results. CT, X-ray, and MRI scans are the most reliable and
+secure common magnetic resonance imaging (MRI) procedures. MRI detects even the tiniest
+objects. Our study focuses on the use of many approaches for brain MRI-based brain cancer
+diagnosis. In order to remove any present noise, we preprocessed the data in this study using the
+bilateral filter (BF). Convolution Neural Network (CNN) segmentation and binary thresholding are
+necessary for precisely determining the tumor's location. There is use of datasets for training,
+validation, and testing. Using our tools, we will assess whether or not the patient has a brain
+tumour. The final findings will be assessed using a variety of performance metrics, including
+sensitivity, specificity, and accuracy. The objective outcome of the recommended effort is to
+outperform its counterparts.
+KEYWORDS: Brain tumor, Magnetic resonance imaging, Adaptive Bilateral Filter, Convolution
+Neural Network.
