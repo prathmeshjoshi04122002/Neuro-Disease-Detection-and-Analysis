@@ -1,0 +1,45 @@
+• In the first stage, there is a computer-based procedures to detect tumor blocks and classify the
+type of tumor using Artificial Neural Network Algorithm for MRI images of different patients.
+• The second stage involves the use of different image processing techniques such as histogram
+equalization, image segmentation, image enhancement, morphological operations and feature extraction
+are used for brain tumor detection in the MRI images for the cancer-affected patients.
+• This work is introduced one automatic brain tumor detection method to increase the accuracy
+and decrease the diagnosis time.
+Image preprocessing: This method uses scanned images from MRIs, which contain noise. Thus,
+cleaning up the input image of noise is our first goal. As stated in the system flow, high pass filters are
+used for preprocessing and noise reduction.
+Segmentation: The simplest method for segmenting images based on regions is region growth. The
+approach in question is categorised as pixel-based picture segmentation as well since it necessitates the
+first seed point selection.
+Morphological operation: The border regions of the brain pictures are extracted using the
+morphological operation. This technique works only with binary pictures since it simply rearranges the
+relative order of pixel values—not their mathematical values. The fundamental process of morphology
+is dilation and erosion. Dilation is the addition of pixels to an object's boundary region, whereas erosion
+is the removal of pixels from the same boundary region.
+Feature Extraction: The pictures' edges are detected by the application of feature extraction. It is the
+process of gathering more complex picture details including contrast, colour, texture, and shape. •
+Connected component labelling: Each collection of connected pixels with the same gray-level values
+is given the same distinct area name after the connected components of an image have been identified.
+
+
+Tumour Identification: During this stage, we are extracting characteristics from a collection of
+previously acquired brain MRIs. A knowledge base is produced in order to compare.
+a) In the first step we can take image as input. In the image we used tumor in the image and only fat and
+water tissues in the images.
+b)In the second step convert image to grayscale
+>Signal to noise
+>Complexity of the code
+>Learning image processing
+>Difficulty of visualization
+c)Then we convert image to binary image by thresholding.
+Thresholding is the simplest method of image segmentation and the most common way to
+convert a grayscale image to binary image. In thresholding we select threshold value and then gray level
+value below the selected threshold value is classified as 0.and equal and greater then the threshold value
+are classified as 1.
+d)Find the number of connected object
+e)Find mask by assigning 1 to inside and 0 to outside of the object that show brain region.
+f)Multiply the mask with T1,T2 and FLAIR MR images to get their skull stripped MR image
+g)T1 & T2: weighted MRI
+FLAIR: fluid attenuated inversion recovery weighted MRI.
+Types of MRI images
+T1: one tissue type is bright-FAT T2: two tissue types are bright-FAT and water
